@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int numero_1 = 8;
+    int numero_2 = 4;
+
+    cout << "El resultado de operar " << numero_1 << " + " << numero_2 << " es: " << numero_1 + numero_2 << endl;
+    cout << "El resultado de operar " << numero_1 << " - " << numero_2 << " es: " << numero_1 - numero_2 << endl;
+    cout << "El resultado de operar " << numero_1 << " * " << numero_2 << " es: " << numero_1 * numero_2 << endl;
+    cout << "El resultado de operar " << numero_1 << " / " << numero_2 << " es: " << numero_1 / numero_2 << endl;
+    cout << "El resultado de operar " << numero_1 << " % " << numero_2 << " es: " << numero_1 % numero_2 << endl;
+    cout << "El resultado de operar " << numero_1 << " <= " << numero_2 << " es: " << (numero_1 <= numero_2) << endl;
+    cout << "El resultado de operar " << numero_1 << " >= " << numero_2 << " es: " << (numero_1 >= numero_2) << endl;
+
+    return 0;
+
+}
